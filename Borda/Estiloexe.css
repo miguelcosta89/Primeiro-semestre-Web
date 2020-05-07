@@ -1,0 +1,43 @@
+p{
+  background-color: orange;
+  padding: 2rem;
+  width: 80%;
+  margin:auto;
+  font-family: cursive;
+  font-size: 2rem;
+  text-align: center;
+border-style:solid dashed;
+border-width: 5px;
+border-radius: 100px 50px;
+color: white;
+border-color:black;
+text-decoration: underline;
+}
+h1{
+  /*border-bottom-style: solid;
+   width: 18rem;*/
+  text-decoration: underline;
+}
+  ul{
+    width:40%;
+    margin: 2rem;
+    background-color: yellow;
+    padding: 2rem;
+    font-size: 1.5rem;
+    list-style: square;
+    border-style:groove;
+    border-color: Black;
+  }
+  ol{width:40%;
+  margin: 2rem;
+  background-color: yellow;
+  padding: 2rem;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  border-style:groove;
+  border-color: Black;
+  list-style: upper-roman;
+}
+img{
+  width: 10rem;
+}

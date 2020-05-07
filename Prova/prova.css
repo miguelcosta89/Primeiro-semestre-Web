@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 97%;
+  padding-left: 6px;
+  background-color: #e6e6e6;
+}
+header{
+  display:inline;
+  margin-top: 1rem;
+}
+img{
+  width: 15px;
+}
+.direita{
+  float: right;
+  font-size: 0.5rem;;
+}
+.esquerda{
+  border-left: solid;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: black;
+  font-size: 0.9rem;
+}
+h1+a{
+  padding-left: 7px;
+  padding-right: 7px;
+  color: black;
+  font-size: 0.9rem;
+}
+a:hover{
+ color: black;
+}
+a{
+  color: black;
+}
+.anuncio{
+  text-align: justify;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 50% 45%;
+  grid-template-rows: 80% 20%;
+}
+
+.anuncio p{
+  font-size: 0.8em;
+}
+.anuncio img{
+  width: 100%;
+}
+h6{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1em;
+}
+.tudo{
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 10px;
+}
+section{
+  background-color: white;
+}
+.menu{
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1em;
+  background-color: #e6e6e6;
+}
+#lançamento{
+  background-color: #e6e6e6;
+}
+iframe{
+  width: 98%;
+  height: 4rem;
+}
+#int{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.saiba p{
+  background-color: #e6e6e6;
+}
+.saiba h3{
+  background-color: #e6e6e6;
+}
+.saiba a {
+  font-size: 1.2rem;
+  border-style: solid;
+  background-color: white;
+  box-shadow: 3px 3px black;
+}
+.saiba > section{
+  background-color: #e6e6e6
+}
+@media(min-width:768px){
+header{
+  display: grid;
+  grid-template-columns: 20% 50%;
+  justify-content: space-around;
+}
+.menu a{
+  padding: 10px;
+  font-size: 1em;
+}
+.inicio{
+display: grid;
+grid-template-columns: 49% 49%;
+grid-column-gap: 10px;
+}
+#lançamento{
+grid-column: 1
+}
+aside{
+  grid-column: 2;
+}
+iframe{
+  margin-top: 3rem;
+  height: 8rem;
+}
+.tablet{
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 10%;
+  display: grid;
+  grid-column-gap: 10px;
+ justify-content:space-around;
+ border-style: solid;
+ border-right: none;
+ border-left: none;
+}
+.tudo{
+border: none;
+}
+.anuncio{
+  display: flex;
+  justify-content: space-between;
+}
+#menor{
+  width: 30rem;
+}
+}
+@media(min-width:980px){
+.pc{
+  grid-template-columns: 25% 50%;
+  grid-template-rows: 35% 65%;
+  display: grid;
+}
+.saiba{
+  grid-column: 1 /span 2;
+  grid-row: 1 /span 1;
+}
+.inicio{
+  grid-column: 1 /span 1;
+  grid-row: 2 /span 1;
+}
+aside{
+  grid-column: 3 /span 1;
+  grid-row: 1 /span 1;
+}
+.tudo{
+  grid-column: 2 /span 1;
+  grid-row: 2 /span 1;
+}
+}

@@ -1,0 +1,22 @@
+html{
+  background-color: Gray;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+}
+
+div{
+  background-color: #663300;
+  padding: 2rem;
+  box-shadow: 10px 10px 10px black;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+  
+}

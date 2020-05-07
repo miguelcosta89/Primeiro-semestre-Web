@@ -1,0 +1,28 @@
+html{
+  background-color: gray;
+}
+
+body{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+li{
+  background-color: green;
+  color: yellow;
+  font-size: 2rem;
+  padding: 1rem;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+li:hover{
+  background-color: blue;
+  border-bottom-style: solid;
+  border-color: yellow;
+  border-width: 5px;
+}

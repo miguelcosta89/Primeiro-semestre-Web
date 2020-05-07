@@ -1,0 +1,77 @@
+
+html{
+  background-color: gray;
+}
+
+body{
+  background-color: white;
+width: 90%;
+margin: auto;
+padding-top: 0.5rem;
+padding-bottom: 6rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.laranja{
+  margin-left: 66%;
+  margin-right: 0%;
+  background-color: orange;
+}
+
+.verde{
+  margin-left: 33%;
+  margin-right: 34%;
+  background-color: green;
+
+}
+
+#azul{
+  margin-right: 67%;
+  background-color: blue;
+
+}
+
+.direita-borda{
+  border-left: none;
+  border-bottom: none;
+
+}
+.esquerda-borda{
+  border-right: none;
+  border-bottom: none;
+}
+p{
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-family: cursive;
+  border-style: solid;
+  border-width: 5px;
+  text-align: center;
+  color: white;
+  border-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: italic;
+
+}
+
+h1{
+  font-family: monospace;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1rem;
+  text-align: center;
+  background-color: blue;
+  color: gray;
+  border-radius: 1rem 1rem;
+  box-shadow: 20px 20px 20px black;
+  letter-spacing: 15px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 3.2rem;
+
+}
+
+img{
+width: 100%;
+}

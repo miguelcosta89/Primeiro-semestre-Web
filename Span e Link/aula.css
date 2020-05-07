@@ -1,0 +1,40 @@
+html{
+  background-color: gray;
+}
+body{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+.div-verde, .div-sombreada{
+  background-color: orange;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+span{
+  text-decoration: underline;
+  color: red;
+  background: yellow;
+}
+p{
+  font-size: 1.5rem;
+}
+.div-verde{
+  background-color:green; ;
+}
+.div-sombreada{
+  box-shadow: 10px 10px 10px
+}
+#div-principal{
+background-image: url('paisagem.jpg');
+padding: 3rem;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-bottom: 2rem;
+text-align: center;
+font-size: 3rem;
+color: white;
+text-shadow: 3px 3px black;
+}

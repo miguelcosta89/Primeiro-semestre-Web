@@ -1,0 +1,71 @@
+html{
+  background-color: black;
+  width: 100%
+}
+body{
+  width: 80%;
+  background-color: white;
+  margin:auto;
+
+}
+div{
+  border: solid;
+  margin: 3%;
+  border-radius: 1rem 1rem 1rem 1rem;
+  box-shadow: 10px 10px 10px gray;
+
+}
+.amarelo{
+  background-color: #ffff99;
+}
+.azul{
+  background-color: #80d4ff;
+}
+#cabeça{
+  background-color: black;
+  margin: auto;
+  border-radius: 0px 0px 0px 0px;
+  text-align: center;
+  padding-bottom: 1rem;
+  box-shadow: none;
+}
+
+h1{
+  font-family: cursive;
+  font-size: 4rem;
+  color: white
+}
+h2{
+  text-align: right;
+  font-style: normal;
+  text-shadow: 2px 2px 2px gray;
+  font-size:3rem;
+  font-family: cursive;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+h3{
+  text-decoration: underline;
+  font-family: cursive;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+p{
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+img{
+  width: 100%
+}
+a{
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+#nada{
+  padding: 0.2rem;;
+  box-shadow: none;
+  border: none;
+}

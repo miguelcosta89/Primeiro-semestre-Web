@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html, body{
+  min-height: 100vh;
+}
+form{
+  display: grid;
+  grid-template-columns: 33% 16% 16% 33%;
+  padding: 2rem;
+  border: 2px solid green;
+  margin: 2rem auto;
+}
+input, select, textarea{
+  display: block;
+  width: 100%;
+}
+textarea{
+  height: 10rem;
+}
+label{
+  display: block;
+  margin: 0.5rem;
+}
+label:nth-child(2){
+  grid-column: 2 / span 2;
+}
+label:nth-child(4){
+  grid-column: 1 / span 2;
+}
+label:nth-child(5){
+  grid-column: 3 / span 2;
+}
+label:nth-child(6){
+  grid-column: 1 /span 4;
+}
+div{
+  grid-column: 1/span 4;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+button{
+  width: 10rem;
+  height: 4rem;
+  display: block;
+  margin: 0 1rem;
+}

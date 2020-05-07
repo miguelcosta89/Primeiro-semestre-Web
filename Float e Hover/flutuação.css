@@ -1,0 +1,19 @@
+html{
+  background-color: gray;
+}
+body{
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+p{
+  padding: 2rem;
+}
+img{
+  width: 50%;
+  float: right;
+}
+h2{
+  clear: both;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+html, body, div{
+  height: 100%;
+}
+#div-primeira{
+  background-color: blue;
+}
+#div-segunda{
+  background-color: yellow;
+}
+#div-terceira{
+  background-color: green;
+}

@@ -1,0 +1,22 @@
+Construa a página proposta
+
+- utilize a figura "montanharussa.jpg" fornecida
+
+- a fonte utilizada no último parágrafo foi a "monospace"
+
+- a fonte utilizada nos demais parágrafos foi a "cursive"
+
+- observe os detalhes:
+	* sombreamento
+	* bordas
+	* espacamentos
+
+Dicas:
+  uma tag pode pertencer a mais de uma classe, por exemplo:
+  <div class="div-com-borda div-aviso">
+
+  pode ser necessário utilizar margin-left e width nos parágrafos
+
+  não utilize tabela
+
+  tamanho do parágrafo deve ser informado 

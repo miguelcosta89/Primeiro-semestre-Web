@@ -1,0 +1,35 @@
+html{
+  background-color: gray;
+  font-family: arial;
+}
+
+body{
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  padding: 2rem;
+}
+
+ table{
+   width: 100%;
+   background-color: #4d004d;
+   border-color: black;
+   border-collapse: collapse;
+ }
+td,th{
+  border-style: solid;
+  padding: 1rem;
+  text-align: center;
+  border-color: yellow;
+  font-size: 1.5rem;
+}
+th{
+  background-color: green;
+  font-size: 2rem;
+}
+.tr-par{
+  background-color: #6600cc;
+}
+.tr-impar{background-color: #9933ff;
+
+}
